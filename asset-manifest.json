@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/weeknightrecipies/static/css/main.f855e6bc.css",
+    "main.js": "/weeknightrecipies/static/js/main.e9ca07fd.js",
+    "static/js/453.38e3d5d9.chunk.js": "/weeknightrecipies/static/js/453.38e3d5d9.chunk.js",
+    "static/media/logo.svg": "/weeknightrecipies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/weeknightrecipies/index.html",
+    "main.f855e6bc.css.map": "/weeknightrecipies/static/css/main.f855e6bc.css.map",
+    "main.e9ca07fd.js.map": "/weeknightrecipies/static/js/main.e9ca07fd.js.map",
+    "453.38e3d5d9.chunk.js.map": "/weeknightrecipies/static/js/453.38e3d5d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e9ca07fd.js"
+  ]
+}
