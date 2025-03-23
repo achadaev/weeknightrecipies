@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <defaultCache
+            maxEntriesLocalHeap="1000"
+            eternal="false"
+            timeToIdleSeconds="3600"
+            timeToLiveSeconds="3600"
+            memoryStoreEvictionPolicy="LRU"/>
+
+    <cache name="org.hibernate.cache.spi.UpdateTimestampsCache"
+           maxEntriesLocalHeap="1000"
+           eternal="true"/>
+    <cache name="org.hibernate.cache.internal.StandardQueryCache"
+           maxEntriesLocalHeap="1000"
+           eternal="true"/>
+    <cache name="com.example.entity.Recipe"
+           maxEntriesLocalHeap="100"
+           eternal="true"/>
+    <cache name="com.example.entity.Ingredient"
+           maxEntriesLocalHeap="100"
+           eternal="true"/>
+    <cache name="com.example.entity.Measure"
+           maxEntriesLocalHeap="100"
+           eternal="true"/>
+    <cache name="com.example.entity.RecipeIngredient"
+           maxEntriesLocalHeap="100"
+           eternal="true"/>
+    <cache name="com.example.entity.Recipe.ingredients"
+           maxEntriesLocalHeap="100"
+           eternal="true"/>
+</ehcache>
